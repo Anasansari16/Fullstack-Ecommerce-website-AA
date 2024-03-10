@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import Footer from "@/components/Footer/page";
 
+
 export default function Home() {
   const { isAuthUser } = useContext(GlobalContext);
 
